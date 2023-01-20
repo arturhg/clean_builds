@@ -1,11 +1,11 @@
-# Clean Builds Script
+# Clean The Builds
 
 This script is used to run the clean command for maven and gradle in all subdirectories one level deep from the provided/current directory that contain a pom.xml or build.gradle file.
 
 ## Usage
 1. Download the script to your local machine
-2. Make the script executable by running `chmod +x clean_builds.sh`
-3. Run the script by executing `./clean_builds.sh [directory]`
+2. Make the script executable by running `chmod +x clean_the_builds.sh`
+3. Run the script by executing `./clean_the_builds.sh [directory]`
 
 The script accepts an optional parameter of a directory. If a directory is not passed, the script will use the current working directory.
 
